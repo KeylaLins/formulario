@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-image: url(../img/design.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.duvidas {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.conteudo {
+  color: #fff;
+  font-size: 2rem;
+  align-self: center;
+}
+
+.conteudo h1 {
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.conteudo p {
+  font-size: 1.5rem;
+  max-width: 35ch;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #fff;
+  padding: 20px;
+  width: 340px;
+}
+
+.formulario{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.formulario input{
+  margin-bottom: 15px;
+}
+
+.formulario .campo{
+  height: 35px;
+  padding: 8px 12px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  position: relative;
+}
+
+.formulario .campo::placeholder, .formulario textarea{
+  color: #a8a8a8;
+  font-family: "roboto";
+  font-size: 1.5rem;
+}
+
+.formulario textarea{
+  min-height: 100px;
+  margin-bottom: 7px;
+}
+
+.formulario p{
+  color: #000;
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.btn{
+background-color: #3ccc87;
+border: none;
+padding: 12px;
+border-radius: 5px;
+}
